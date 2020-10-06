@@ -1,12 +1,68 @@
-.gen-block{
-    width: 100%;
-    max-width: 768px;
-    margin:auto;
-    padding:2%;
-    border-left-style: solid!important;
-    border-right-style: solid!important;
-    border-left: 1px;
-    border-right: 1px;
-    font-size:20px;
+.gen-block-container {
+  padding-top: 3%;
+  background-color: white;
+  max-width: 968px;
+  padding-bottom: 5%;
+  border-radius: 0 0 30px 30px !important;
+}
+.gen-block {
+  width: 100%;
+  max-width: 868px;
+  margin: auto;
+  padding: 2%;
+  font-size: 20px;
+  background-color: white;
+  text-align: justify;
+}
+.gen-block ul {
+  list-style: disc !important;
+  padding: 0px 20px;
+}
+.gen-block a {
+  padding: 2%;
+  color: #ff6700;
+}
 
+.gen-block .round {
+  border: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  padding: 4px;
+}
+.gen-block a:hover {
+  text-decoration: underline #ff6700;
+  text-decoration-style: solid;
+}
+.parent {
+  background-color: #f7f7f7;
+  padding-top: 0 !important;
+  padding-bottom: 3% !important;
+}
+.arrow {
+  position: fixed;
+  bottom: -30vh;
+  left: 0;
+  right: 0;
+}
+.contact-block {
+  max-width: 768px !important;
+  margin: auto;
+  padding: 2%;
+  text-align: justify;
+}
+.contactBanner {
+  background-image: url(.././img/contact-background.jpg);
+  background-size: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.contactMap{
+    width:100%;
+    max-width:100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .gen-block {
+    font-size: 18px;
+  }
 }

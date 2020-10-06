@@ -1,7 +1,4 @@
 /*
-Template Name: HTML Education Template
-Author: yaminncco
-
 Colors:
 	Body 		: #798696
 	Headers 	: #374050
@@ -363,7 +360,7 @@ textarea:focus {
 
 /* -- Mobile Toggle Btn -- */
 .navbar-toggle {
-  position: fixed;
+  position: sticky;
   right: 0;
   padding: 0;
   height: 40px;
@@ -431,8 +428,8 @@ textarea:focus {
 \*------------------------------------*/
 .hero-area {
   position: relative;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 #home.hero-area {
@@ -813,6 +810,7 @@ textarea:focus {
 }
 
 .contact-details li i {
+  vertical-align: top;
   color: #ff6700;
   margin-right: 15px;
   border: 1px solid #ebebeb;
