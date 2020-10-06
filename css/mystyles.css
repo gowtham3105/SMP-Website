@@ -1,0 +1,12 @@
+.gen-block{
+    width: 100%;
+    max-width: 768px;
+    margin:auto;
+    padding:2%;
+    border-left-style: solid!important;
+    border-right-style: solid!important;
+    border-left: 1px;
+    border-right: 1px;
+    font-size:20px;
+
+}
