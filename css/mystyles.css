@@ -95,7 +95,43 @@
   text-align: center;
   border-top:none!important;
 }
-
+.faqcard{
+  border:2px solid  #ff6700;
+  padding:3px;
+  margin:10px;
+  border-radius:15px;
+}
+.faqQuesbtn{
+  background-color: white;
+   white-space: normal!important;
+}
+.faqQuesbtn:hover{
+  background-color: white;
+  color:#ff6700;
+}
+.faqanswer{
+  font-size:18px;
+  padding:5px;
+}
+.faqdownarrow{
+    position: sticky;
+    left: 100%;
+    font-size: 30px!important;
+}
+.faqques{
+ text-align: justify;
+}
+.faq-block-container {
+  padding-top: 3%;
+  background-color: white;
+  max-width: 968px;
+  padding-bottom: 5%;
+  border-radius: 0 0 30px 30px !important;
+}
+.faq-block-container h1{
+  padding: 5%;
+  
+}
 @media only screen and (max-width: 767px) {
   .gen-block {
     font-size: 18px;
