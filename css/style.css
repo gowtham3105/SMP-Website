@@ -32,7 +32,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: #798696;
+  color: #4c5157;
   overflow-x: hidden;
 }
 
@@ -1277,9 +1277,7 @@ textarea:focus {
   }
 
   /*-- Blog page --*/
-  #main {
-    margin-bottom: 80px;
-  }
+
 }
 
 @media only screen and (max-width: 767px) {

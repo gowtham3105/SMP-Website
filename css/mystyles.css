@@ -1,3 +1,22 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 .gen-block-container {
   padding-top: 3%;
   background-color: white;
@@ -20,17 +39,22 @@
 }
 .gen-block a {
   padding: 2%;
+  color: #0026ff;
+}
+.gen-block h2{
   color: #ff6700;
 }
-
+.gen-block h1{
+  color: #6500d8;
+}
 .gen-block .round {
   border: 2px;
   border-style: solid;
   border-radius: 50%;
   padding: 4px;
 }
-.gen-block a:hover {
-  text-decoration: underline #ff6700;
+.gen-block a:hover{
+  text-decoration: underline#0026ff;
   text-decoration-style: solid;
 }
 .parent {
@@ -59,6 +83,17 @@
 .contactMap{
     width:100%;
     max-width:100%;
+}
+.implink{
+  margin-top:50px;
+}
+.implink table{
+  max-width: 600px;
+  margin:auto;
+}
+.implink td{
+  text-align: center;
+  border-top:none!important;
 }
 
 @media only screen and (max-width: 767px) {
