@@ -10,7 +10,6 @@ def faq():
     f = open('faqs.json', "r")
     data = f.read()
     data = json.loads(data)
-    print(data)
     return jsonify(data)
 
 app.run(host="0.0.0.0",debug=True, port="8000")

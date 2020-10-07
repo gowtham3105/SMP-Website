@@ -35,7 +35,7 @@ arrow_drop_down
           `" class="collapse faqanswer" aria-labelledby="` +
           i +
           `" data-parent="#accordionExample">
-      <div class="card-body">
+      <div class="card-body ">Ans. 
        ` +
           item.answer +
           `</div>

@@ -111,7 +111,7 @@
 }
 .faqanswer{
   font-size:18px;
-  padding:5px;
+  padding:1%;
 }
 .faqdownarrow{
     position: sticky;
@@ -129,7 +129,8 @@
   border-radius: 0 0 30px 30px !important;
 }
 .faq-block-container h1{
-  padding: 5%;
+  padding-left: 5%;
+  padding-bottom: 2%;
   
 }
 @media only screen and (max-width: 767px) {
