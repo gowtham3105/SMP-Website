@@ -1,10 +1,4 @@
 /*
-Colors:
-	Body 		: #798696
-	Headers 	: #374050
-	Primary 	: #FF6700
-	Grey 		: #EBEBEB
-
 Fonts: Lato & Montserrat
 
 Table OF Contents
@@ -24,10 +18,7 @@ Table OF Contents
 13 > Preloader
 ------------------------------------*/
 
-/*------------------------------------*\
-	General
-\*------------------------------------*/
-/* --- typography --- */
+
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
@@ -433,7 +424,7 @@ textarea:focus {
 }
 
 #home.hero-area {
-  height: calc(110vh - 80px);
+  height: calc(110vh - 66px);
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -863,24 +854,6 @@ textarea:focus {
   opacity: 0.7;
 }
 
-.single-blog .blog-meta {
-  margin-top: 20px;
-  padding-top: 10px;
-  border-top: 1px solid #ebebeb;
-}
-
-.single-blog .blog-meta .blog-meta-author > a {
-  color: #ff6700;
-}
-
-.single-blog .blog-meta .blog-meta-comments {
-  margin-left: 10px;
-}
-
-.single-blog .blog-meta .blog-meta-comments > a {
-  color: #798696;
-}
-
 /* -- Pagination -- */
 .post-pagination {
   margin-top: 40px;
@@ -1082,27 +1055,6 @@ textarea:focus {
 /*------------------------------------*\
 	Single Post Page
 \*------------------------------------*/
-/* --- Blog Post Meta --- */
-.blog-post-meta {
-  margin-top: 40px;
-}
-
-.blog-post-meta li {
-  display: inline-block;
-}
-
-.blog-post-meta li + li {
-  margin-left: 15px;
-}
-
-.blog-post-meta li,
-.blog-post-meta li > a {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.blog-post-meta .blog-meta-author > a {
-  color: #ff6700;
-}
 
 /* --- Blog Share --- */
 .blog-share {

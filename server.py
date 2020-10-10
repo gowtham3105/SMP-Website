@@ -5,7 +5,7 @@ import pymongo
 
 
 client = pymongo.MongoClient(
-    "mongodb+srv://gowtham:KZzaH6w8xpszthCz@smp-iitdh-database.zhcds.gcp.mongodb.net/FAQs?retryWrites=true&w=majority")
+    "mongodb+srv://Server:ODF21Lrh3EFQooDu@smp-iitdh-database.zhcds.gcp.mongodb.net/FAQs?retryWrites=true&w=majority")
 db = client['FAQs']
 
 

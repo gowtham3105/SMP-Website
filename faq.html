@@ -64,37 +64,25 @@
 		</header>
 		<!-- /Header -->
 
-		<!-- Home -->
-		<div id="home" class="hero-area">
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image: url(./img/gen-background-1.jpg)"></div>
+			<div class="bg-image bg-parallax overlay faqBanner"></div>
 			<!-- /Backgound Image -->
 
-			<div class="home-wrapper">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8">
-							<h1 class="white-text">FAQs</h1>
-							<p class="lead white-text">
-								How can we help you?
-							</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-12 col-lg-12-col-md-12">
-							<div class="arrow" align="center">
-								<a href="#main">
-									<i style="color: white; font-size: 50px" class="fa fa-angle-down"
-										aria-hidden="true">
-									</i>
-								</a>
-							</div>
-						</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+
+						<h1 class="white-text">FAQs</h1>
+
 					</div>
 				</div>
 			</div>
+
 		</div>
-		<!-- /Home -->
+		<!-- /Hero-area -->
 
 		<div id="main" class="section parent">
 			<!-- container -->
@@ -106,7 +94,31 @@
 
 
 				<div class="accordion" id="accordionExample">
-					<div id="questions"></div>
+					<div id="questions">
+						<div class="card faqcard">
+							<div class="card-header" id="-1">
+								<div class="btn faqQuesbtn" type="button" data-toggle="collapse" data-target="#c-1" aria-expanded="true" aria-controls="c-1" style="width:100%;">
+									<h4 class="faqques">
+
+										Is it Necessary to have a cycle in First Year at IIT Dharwad?
+
+										<span class="material-icons faqdownarrow">
+											arrow_drop_down
+										</span>
+									</h4>
+
+								</div>
+							</div>
+
+							<div id="c-1" class="collapse faqanswer" aria-labelledby="-1" data-parent="#accordionExample">
+								<div class="card-body ">Ans.
+
+									No, First Year Students do not require to have a cycle. First Year Hostel(Hostel
+									Keervani) is beside the academic Building which is less than 100m away.
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<!-- container -->
@@ -122,23 +134,14 @@
 					<!-- social -->
 					<div class="col-md-4 col-md-push-8">
 						<ul class="footer-social">
-							<li>
-								<a href="https://www.facebook.com/IITDhGymkhana" class="facebook"><i
-										class="fa fa-facebook"></i></a>
-							</li>
-							<li>
-								<a href="https://twitter.com/iitdhrwd?s=20" class="twitter"><i
-										class="fa fa-twitter"></i></a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/iitdharwad/?hl=en" class="instagram"><i
-										class="fa fa-instagram"></i></a>
-							</li>
-							<!-- <li>
-								<a href="https://www.youtube.com/channel/UCG_M5tP34-uO-Jkr9Q7VDsA" class="youtube"><i
-										class="fa fa-youtube"></i></a>
-							</li> -->
-							<li><a href="https://in.linkedin.com/company/iit-dharwad" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://www.facebook.com/IITDhGymkhana" class="facebook"><i
+										class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/iitdhrwd?s=20" class="twitter"><i
+										class="fa fa-twitter"></i></a> </li>
+							<li><a href="https://www.instagram.com/iitdharwad/?hl=en" class="instagram"><i
+										class="fa fa-instagram"></i></a></li>
+							<li><a href="https://in.linkedin.com/company/iit-dharwad" class="linkedin"><i
+										class="fa fa-linkedin"></i></a></li>
 
 						</ul>
 					</div>
@@ -147,7 +150,8 @@
 					<!-- copyright -->
 					<div class="col-md-8 col-md-pull-4">
 						<div class="footer-copyright">
-							<span>&copy; Copyright 2020. All Rights Reserved | SMP Team 2020-21 </span>
+							<!-- This Css File is made by Colorlib-->
+							<span>&copy; Copyright 2020. All Rights Reserved. | SMP Team 2020-21</span>
 						</div>
 					</div>
 					<!-- /copyright -->

@@ -28,7 +28,7 @@
   width: 100%;
   max-width: 868px;
   margin: auto;
-  padding: 7%;
+  padding: 1% 5%;
   font-size: 20px;
   background-color: white;
   text-align: justify;
@@ -41,10 +41,10 @@
   padding: 2%;
   color: #0026ff;
 }
-.gen-block h2{
+.gen-block h2 {
   color: #ff6700;
 }
-.gen-block h1{
+.gen-block h1 {
   color: #6500d8;
 }
 .gen-block .round {
@@ -53,7 +53,7 @@
   border-radius: 50%;
   padding: 4px;
 }
-.gen-block a:hover{
+.gen-block a:hover {
   text-decoration: underline#0026ff;
   text-decoration-style: solid;
 }
@@ -80,46 +80,52 @@
   background-position: top;
   background-repeat: no-repeat;
 }
-.contactMap{
-    width:100%;
-    max-width:100%;
+.faqBanner {
+  background-image: url(.././img/faq-background.png);
+  background-size: auto;
+  background-position: top;
+  background-repeat: no-repeat;
 }
-.implink{
-  margin-top:50px;
+.contactMap {
+  width: 100%;
+  max-width: 100%;
 }
-.implink table{
+.implink {
+  margin-top: 50px;
+}
+.implink table {
   max-width: 600px;
-  margin:auto;
+  margin: auto;
 }
-.implink td{
+.implink td {
   text-align: center;
-  border-top:none!important;
+  border-top: none !important;
 }
-.faqcard{
-  border:2px solid  #ff6700;
-  padding:3px;
-  margin:10px;
-  border-radius:15px;
+.faqcard {
+  border: 2px solid #ff6700;
+  padding: 3px;
+  margin: 10px;
+  border-radius: 15px;
 }
-.faqQuesbtn{
+.faqQuesbtn {
   background-color: white;
-   white-space: normal!important;
+  white-space: normal !important;
 }
-.faqQuesbtn:hover{
+.faqQuesbtn:hover {
   background-color: white;
-  color:#ff6700;
+  color: #ff6700;
 }
-.faqanswer{
-  font-size:18px;
-  padding:1%;
+.faqanswer {
+  font-size: 18px;
+  padding: 1%;
 }
-.faqdownarrow{
-    position: sticky;
-    left: 100%;
-    font-size: 30px!important;
+.faqdownarrow {
+  position: sticky;
+  left: 100%;
+  font-size: 30px !important;
 }
-.faqques{
- text-align: justify;
+.faqques {
+  text-align: justify;
 }
 .faq-block-container {
   padding-top: 3%;
@@ -128,13 +134,19 @@
   padding-bottom: 5%;
   border-radius: 0 0 30px 30px !important;
 }
-.faq-block-container h1{
+.faq-block-container h1 {
   padding-left: 5%;
   padding-bottom: 2%;
-
 }
 @media only screen and (max-width: 767px) {
   .gen-block {
     font-size: 18px;
+  }
+  .faqBanner {
+    background-image: url(.././img/faq-background.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
   }
 }
