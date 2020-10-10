@@ -4,4 +4,4 @@ This Website is made to clarify doubts of Students of Year 2020 under the Studen
 
 ### FAQs Page
 FAQs Page is a dynamic page which is backed up by a Flask Server with access the MongoDb DataBase to get the questions and answers
-You can Run the Server.py And ssee the Faq Page. Though there is a sample element to view the design.
+You can Run the Server.py And see the Faq Page. Though there is a sample element to view the design.
