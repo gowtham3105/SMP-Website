@@ -6,8 +6,9 @@ import pymongo
 
 client = pymongo.MongoClient(
     "mongodb+srv://Server:ODF21Lrh3EFQooDu@smp-iitdh-database.zhcds.gcp.mongodb.net/FAQs?retryWrites=true&w=majority")
-db = client['FAQs']
+FAQSdb = client['FAQs']
 
+Coursesdb = client['Courses']
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -16,11 +17,49 @@ cors = CORS(app)
 def faq():
     data = []
 
-    for x in db['Questions'].find():
+    for x in FAQSdb['Questions'].find():
         x['_id'] = str(x['_id'])
         data.append(x)
         
     data = json.loads(str(data).replace("'", "\""))
     return jsonify(data)
+
+
+@app.route("/Courses", methods=['GET'])
+def CSECourses():
+    branch = request.args.get('branch')
+    sem = request.args.get('sem')
+    data = []
+
+    for x in Coursesdb[branch].find({"semester": {"$regex": sem[0]+"|"+sem[1]}}):
+        x['_id'] = str(x['_id'])
+        data.append(x)
+
+    data = json.loads(str(data).replace("'", "\""))
+
+    return jsonify(data)
+
+
+@app.route("/CourseDetails", methods=['GET'])
+def CourseDetails():
+    code = request.args.get('code')
+    data = []
+
+    for x in Coursesdb['CSE'].find({"courseCode": code}):
+        x['_id'] = str(x['_id'])
+        data.append(x)
+    if not len(data):
+        for x in Coursesdb['EE'].find({"courseCode": code}):
+            x['_id'] = str(x['_id'])
+            data.append(x)
+    if not len(data):
+        for x in Coursesdb['MECH'].find({"courseCode": code}):
+            x['_id'] = str(x['_id'])
+            data.append(x)
+    data = json.loads(str(data).replace("'", "\""))
+   
+    return jsonify(data)
+
+
 
 app.run(host="0.0.0.0",debug=True, port="8000")

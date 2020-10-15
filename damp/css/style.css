@@ -660,7 +660,7 @@ button:focus {
 /* Start Popular Courses Area css
 ============================================================================================ */
 .popular_courses {
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 @media (max-width: 991px) {
   .popular_courses {
@@ -719,6 +719,10 @@ button:focus {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  min-width:300px;
+  width:30%;
+  margin:15px;
+  display:inline-block
 }
 .single_course .course_head {
   position: relative;
