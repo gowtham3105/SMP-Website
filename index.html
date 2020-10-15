@@ -1,341 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="theme-color" content="#000000" />
-		<meta name="description" content="SMP Website IIT Dharwad" />
-		<meta name="keywords" content="IIT, IIT Dharwad, SMP, Student Mentorship, Dharwad">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="SMP Website IIT Dharwad" />
+    <meta name="keywords" content="IIT, IIT Dharwad, SMP, Student Mentorship, Dharwad">
 
-		<title>SMP-IIT Dharwad</title>
+    <link rel="icon" href="img/favicon.ico" />
+    <title>DAMP IIT Dharwad</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mystyles.css" />
+  </head>
 
-		<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
-		<!-- Google font -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+  <body>
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area">
+      <div class="main_menu">
+        <div class="search_input" id="search_input_box">
+          <div class="container">
+            <form class="d-flex justify-content-between" method="" action="">
+              <input type="text" class="form-control" id="search_input" placeholder="Search Here" />
+              <button type="submit" class="btn"></button>
+              <span class="ti-close" id="close_search" title="Close Search"></span>
+            </form>
+          </div>
+        </div>
 
-		<!-- Bootstrap -->
-		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" class="nav-logo" alt=""
+                width="100px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
 
-		<!-- Font Awesome Icon -->
-		<link rel="stylesheet" href="css/font-awesome.min.css">
+                <li class="nav-item submenu dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">Courses</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="cse.html">Computer Science</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ee.html">Electrical</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="mech.html">Mechanical</a>
+                    </li>
+                  </ul>
+                </li>
 
-		<!-- Custom stlylesheet -->
-		<link type="text/css" rel="stylesheet" href="css/style.css" />
+                <li class="nav-item submenu dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">Exam Preparations</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="gate.html">GATE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gre.html">GRE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="cat.html">CAT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="tofel.html">TOFEL</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="labs.html">Labs</a>
+                </li>
 
-		<!-- My own stlylesheet -->
-		<link type="text/css" rel="stylesheet" href="css/mystyles.css" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--================ End Header Menu Area =================-->
 
-	</head>
+    <!--================ Start Home Banner Area =================-->
+    <section class="home_banner_area">
+      <div class="banner_inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="banner_content text-center">
 
-	<body>
+                <h2 class="text-uppercase mt-4 mb-5 show-desk">
+                  Departmental Academic Mentorship Programm
 
-		<!-- Header -->
-		<header id="header" class="transparent-nav">
-			<div class="container">
+                </h2>
+                <h2 class="text-uppercase mt-4 mb-5 show-mob">
+                  DAMP
+                </h2>
+                <p class="text-uppercase">
+                  IIT Dharwad
+                </p>
+                <div>
+                  <a href="#intro" class="primary-btn2 mb-3 mb-sm-0">Learn More</a>
 
-				<div class="navbar-header">
-					<!-- Logo -->
-					<div class="navbar-brand">
-						<a class="logo" href="index.html">
-							<img src="./img/logo.png" alt="logo">
-						</a>
-					</div>
-					<!-- /Logo -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End Home Banner Area =================-->
 
-					<!-- Mobile toggle -->
-					<button class="navbar-toggle">
-						<span></span>
-					</button>
-					<!-- /Mobile toggle -->
-				</div>
+    <!--================ Start Feature Area =================-->
+    <section class="feature_area section_gap_top">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="main_title">
+              <h2 class="mb-3">Welcome!</h2>
+              <p>
+                One line about damp
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="single_feature">
+              <div class="icon"><span class="flaticon-student"></span></div>
+              <div class="desc">
+                <h4 class="mt-3 mb-2">Use of damp 1</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+              </div>
+            </div>
+          </div>
 
-				<!-- Navigation -->
-				<nav id="nav">
-					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="general.html">General</a></li>
-						<li><a href="academics.html">Academics</a></li>
-						<li><a href="campus.html">Campus Life</a></li>
-						<li><a href="extra.html">Extra curricular</a></li>
-						<li><a href="faq.html">FAQs</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li><a href="damp/index.html">DAMP</a></li>
+          <div class="col-lg-4 col-md-6">
+            <div class="single_feature">
+              <div class="icon"><span class="flaticon-book"></span></div>
+              <div class="desc">
+                <h4 class="mt-3 mb-2">Use of damp 2</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-					</ul>
-				</nav>
-				<!-- /Navigation -->
+                </p>
+              </div>
+            </div>
+          </div>
 
-			</div>
-		</header>
-		<!-- /Header -->
+          <div class="col-lg-4 col-md-6">
+            <div class="single_feature">
+              <div class="icon"><span class="flaticon-earth"></span></div>
+              <div class="desc">
+                <h4 class="mt-3 mb-2">Use of damp 3</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-		<!-- Home -->
-		<div id="home" class="hero-area">
-
-			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay"
-				style="background-image:url(./img/home-background.jpg);background-attachment: scroll;"></div>
-			<!-- /Backgound Image -->
-
-			<div class="home-wrapper">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8">
-							<h1 class="white-text">Welcome to IIT Dharwad!</h1>
-							<p class="lead white-text">The home of pink sunsets, rich heritage and culture and, of
-								course, engineering xP.</p>
-							<a class="main-button icon-button" href="general.html">Know More</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-12 col-lg-12-col-md-12">
-							<div class="arrow" align="center">
-								<a href="#main">
-									<i style="color: white; font-size: 50px" class="fa fa-angle-down"
-										aria-hidden="true">
-									</i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<!-- /Home -->
-
-		<div id="main" class="section" style="padding-top: 40px;">
-
-			<!-- container -->
-			<div class="container">
-				<div class="row">
-					<div class="gen-block" style="max-width: 1024px;">
-						<h1 style="text-align: center;">
-							Introduction
-						</h1>
-						The Institute Student Mentorship Program (ISMP) is a program within the student community which
-						primarily deals with
-						first year undergraduate students. The senior students, called Institute Student Mentors (ISMs)
-						are responsible for
-						helping a set of 6-12 first years adjust to the new environment and subsequently monitor their
-						progress throughout the
-						year. Mentors help solve students academic and personal problems while on campus, and guide them
-						through the first year
-						of college life away from campus.
-
-					</div>
-				</div>
-				<hr>
-
-				<!-- row -->
-				<div class="row">
-
-					<div class="col-md-6">
-						<div class="section-header">
-							<h2>Important Dates</h2>
-							<p class="lead">Dates scheduled are tenative. So, Keep a eye on us now and then</p>
-						</div>
-					</div>
-
-					<div class="col-md-6">
-						<table class="table table-striped">
-							<tbody>
-								<tr>
-									<td>
-										Results of JEE (Advanced) 2020
-									</td>
-									<td>
-										Oct 5, 2020
-									</td>
-								</tr>
-
-								<tr>
-									<td>
-										JoSAA Registration and Choice Filling (for IITDH)
-									</td>
-									<td>
-										Oct 6, 2020 to Oct 15, 2020
-									</td>
-								</tr>
-								<tr>
-									<td>
-										Seat Allotment
-									</td>
-									<td>
-										Oct 17, 2020 to Nov 9, 2020
-									</td>
-								</tr>
-								<tr>
-									<td>
-										Online Reporting Date (for IITDH)
-									</td>
-									<td>
-										To be decided
-									</td>
-								</tr>
-								<tr>
-									<td>
-										Registration Date (for IITDH)
-									</td>
-									<td>
-										To be decided
-									</td>
-								</tr>
-								<tr>
-									<td>
-										Orientation Dates (for IITDH)
-									</td>
-									<td>
-										To be decided
-									</td>
-								</tr>
-								<tr>
-									<td>
-										Instructions Begin (for IITDH)
-									</td>
-									<td>
-										To be decided
-									</td>
-								</tr>
-							</tbody>
-						</table>
-
-					</div>
-
-				</div>
-				<div class="row implink">
-
-					<h2 style="text-align: center;">Important Links</h2>
-					<hr>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End Feature Area =================-->
 
 
-					<table class="table table-borderless ">
-						<tbody>
-							<tr>
-								<td>
-									IIT Dharwad Official Site
+    <!--================ Start Feature Area =================-->
+    <section class="feature_area section_gap_top" id="intro">
+      <div class="container">
 
-								</td>
-								<td>
-									<a href="http://www.iitdh.ac.in/">http://www.iitdh.ac.in/</a>
-								</td>
-							</tr>
+        <div class="row justify-content-center">
+          <div class="gen-block" style="max-width: 1024px;">
+            <div class="main_title">
+              <h2>Introduction</h2>
+            </div>
 
-							<tr>
-								<td>
-									Jee (Advanced) Official Website
+            Oh he decisively impression attachment friendship so if everything. Whose her enjoy chief new young.
+            Felicity if ye
+            required likewise so doubtful. On so attention necessary at by provision otherwise existence direction.
+            Unpleasing up
+            announcing unpleasant themselves oh do on. Way advantage age led listening belonging supposing.
 
+            Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing
+            shameless am he
+            engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points.
+            Remember
+            mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are
+            pressed removed.
 
-								</td>
-								<td>
-									<a href="https://www.jeeadv.ac.in/">https://www.jeeadv.ac.in/</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									Contact and Reaching Campus
+            Breakfast agreeable incommode departure it an. By ignorant at on wondered relation. Enough at tastes really
+            so cousin am
+            of. Extensive therefore supported by extremity of contented. Is pursuit compact demesne invited elderly be.
+            View him she
+            roof tell her case has sigh. Moreover is possible he admitted sociable concerns. By in cold no less been
+            sent hard hill.
 
-								</td>
-								<td>
-									<a href="http://www.iitdh.ac.in/contact.php">http://www.iitdh.ac.in/contact.php</a>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<!-- row -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End Feature Area =================-->
 
-			</div>
-			<!-- container -->
-		</div>
-		<!-- /About -->
+    <!--================ Start footer Area  =================-->
+    <footer class="footer-area section_gap">
+      <div class="container">
 
-
-
-		<!-- Contact CTA -->
-		<div id="contact-cta" class="section">
-
-			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/cta2-background.jpg)"></div>
-			<!-- Backgound Image -->
-
-			<!-- container -->
-			<div class="container">
-
-				<!-- row -->
-				<div class="row">
-
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<h2 class="white-text">Contact Us</h2>
-
-						<a class="main-button icon-button" href="contact.html">Contact Us Now</a>
-					</div>
-
-				</div>
-				<!-- /row -->
-
-			</div>
-			<!-- /container -->
-
-		</div>
-		<!-- /Contact CTA -->
-
-		<!-- Footer -->
-		<footer id="footer" class="section">
-
-			<!-- container -->
-			<div class="container">
-
-				<!-- row -->
-				<div id="bottom-footer" class="row">
-
-					<!-- social -->
-					<div class="col-md-4 col-md-push-8">
-						<ul class="footer-social">
-							<li><a href="https://www.facebook.com/IITDhGymkhana" class="facebook"><i
-										class="fa fa-facebook"></i></a></li>
-							<li><a href="https://twitter.com/iitdhrwd?s=20" class="twitter"><i
-										class="fa fa-twitter"></i></a></li>
-							<li><a href="https://www.instagram.com/iitdharwad/?hl=en" class="instagram"><i
-										class="fa fa-instagram"></i></a></li>
-							<li><a href="https://in.linkedin.com/company/iit-dharwad" class="linkedin"><i
-										class="fa fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-					<!-- /social -->
-
-					<!-- copyright -->
-					<div class="col-md-8 col-md-pull-4">
-						<div class="footer-copyright">
-							<!-- This Css File is made by Colorlib-->
-							<span>&copy; Copyright 2020. All Rights Reserved. | SMP Team 2020-21</span>
-						</div>
-					</div>
-					<!-- /copyright -->
-
-				</div>
-				<!-- row -->
-
-			</div>
-			<!-- /container -->
-
-		</footer>
-		<!-- /Footer -->
-
-		<!-- preloader -->
-		<div id='preloader'>
-			<div class='preloader'></div>
-		</div>
-		<!-- /preloader -->
+        <div class="row footer-bottom d-flex">
+          <p class=" footer-text" style="margin:auto;">
 
 
-		<!-- jQuery Plugins -->
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | SMP IIT Dharwad
+          </p>
 
-	</body>
+          
+
+        </div>
+      </div>
+    </footer>
+    <!--================ End footer Area  =================-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/owl-carousel-thumb.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
 
 </html>
