@@ -505,7 +505,6 @@ button:focus {
 
 .banner_area {
   position: relative;
-  background-size: cover!important;
   background: url(../img/banner/banner.jpg) no-repeat center center;
   z-index: 1;
   min-height: 392px;
@@ -720,10 +719,10 @@ button:focus {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  min-width: 300px;
-  width: 30%;
-  margin: 15px;
-  display: inline-block;
+  min-width:300px;
+  width:30%;
+  margin:15px;
+  display:inline-block
 }
 .single_course .course_head {
   position: relative;
@@ -1467,7 +1466,9 @@ button:focus {
 }
 
 .blog_details {
-  padding-top: 20px;
+  padding: 10%;
+  margin: auto;
+
 }
 .blog_details h2 {
   font-size: 24px;
@@ -3653,7 +3654,7 @@ h6 {
 }
 .primary-btn2:hover {
   background: transparent;
-  color: #fdc632;
+  color: #002347;
   border: 1px solid #002347;
 }
 
