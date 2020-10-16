@@ -14,18 +14,24 @@ getcourses = () => {
 
   var branch = geturlparm();
 
-    if (branch == "CSE") {
-      document.getElementById("branchName").innerHTML = "Computer Science";
-      document.getElementById("branchName1").innerHTML = " Computer Science";
-    } else if (branch == "EE") {
-      document.getElementById("branchName").innerHTML = "Electrical";
-      document.getElementById("branchName1").innerHTML = " Electrical";
-    } else if (branch == "MECH") {
-      document.getElementById("branchName").innerHTML = "Mechanical";
-      document.getElementById("branchName1").innerHTML = " Mechanical";
-    }
+  if (branch == "CSE") {
+    document.getElementById("branchName").innerHTML = "Computer Science";
+    document.getElementById("branchName1").innerHTML = " Computer Science";
+    document.getElementById("course-banner").style.background =
+      "url('img/courses/course-CSE.jpg')  no-repeat center center";
+  } else if (branch == "EE") {
+    document.getElementById("branchName").innerHTML = "Electrical";
+    document.getElementById("branchName1").innerHTML = " Electrical";
+    document.getElementById("course-banner").style.background =
+      "url('img/courses/course-EE.jpg')  no-repeat center center";
+  } else if (branch == "MECH") {
+    document.getElementById("branchName").innerHTML = "Mechanical";
+    document.getElementById("branchName1").innerHTML = " Mechanical";
+    document.getElementById("course-banner").style.background =
+      "url('img/courses/course-MECH.jpg')  no-repeat center center";
+  }
 
-  fetch("http://localhost:8000/Courses?sem=" + "34"+"&branch="+branch)
+  fetch("http://localhost:8000/Courses?sem=" + "34" + "&branch=" + branch)
     .then((response) => {
       return response.json();
     })
