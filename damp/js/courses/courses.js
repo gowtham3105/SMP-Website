@@ -15,18 +15,21 @@ getcourses = () => {
   var branch = geturlparm();
 
   if (branch == "CSE") {
-    document.getElementById("branchName").innerHTML = "Computer Science";
-    document.getElementById("branchName1").innerHTML = " Computer Science";
+    document.getElementById("branchName").innerHTML = "Computer Science and Engineering";
+    document.getElementById("branchName1").innerHTML =
+      " Computer Science and Engineering";
     document.getElementById("course-banner").style.background =
       "url('img/courses/course-CSE.jpg')  no-repeat center center";
   } else if (branch == "EE") {
-    document.getElementById("branchName").innerHTML = "Electrical";
-    document.getElementById("branchName1").innerHTML = " Electrical";
+    document.getElementById("branchName").innerHTML = "Electrical Engineering";
+    document.getElementById("branchName1").innerHTML =
+      " Electrical Engineering";
     document.getElementById("course-banner").style.background =
       "url('img/courses/course-EE.jpg')  no-repeat center center";
   } else if (branch == "MECH") {
-    document.getElementById("branchName").innerHTML = "Mechanical";
-    document.getElementById("branchName1").innerHTML = " Mechanical";
+    document.getElementById("branchName").innerHTML = "Mechanical Engineering";
+    document.getElementById("branchName1").innerHTML =
+      " Mechanical Engineering";
     document.getElementById("course-banner").style.background =
       "url('img/courses/course-MECH.jpg')  no-repeat center center";
   }
