@@ -1,0 +1,262 @@
+[{
+    "courseCode": "",
+    "courseName": "INTRODUCTION TO PROBABILITY",
+    "semester": "Autumn",
+    "instructor": "Prof.Naveen M B",
+    "preRequisites": "Exposure to Calculus (MA 101)",
+    "summary": [
+      "Introduction",
+      "Random Variables",
+      "Mathematical Expectation",
+      "Inequalities and Notions of convergence",
+      "Random Process",
+      "Markov Chain"
+    ],
+    "need": "Randomness is inherent to most of the systems in electrical engineering. Especially, in the field of communication, the noise at the receiver brings in several challenges in designing systems that are immune to noise. To face this challenge, it is fundamental to model and understand the “randomness.” This course is aimed at covering tools necessary to achieve this goal through several example applications in electrical and computer science engineering disciplines.",
+    "references": [
+      "Robert B. Ash,Basic Probability Theory, Reprint of the John Wiley & Sons, Inc., New York, 1970 edition.",
+      "Sheldon Ross, A first course in probability, Pearson Education India, 2002.",
+      "Bruce Hayek,An Exploration of Random Processes for Engineers, Lecture notes."
+    ],
+    "credits": "NIL"
+  },
+
+  {
+    "courseCode": "",
+    "courseName": "DATA ANALYSIS",
+    "semester": "Autumn",
+    "instructor": "Prof.Sudhanshu Shukla",
+    "preRequisites": "NIL",
+    "summary": [
+      "The role of statistics. Graphical and numerical methods for describing and summarising data. Probability. Population distributions. Sampling variability and sampling distributions. Estimation using a single sample. Hypothesis testing a single sample. Comparing two populations or treatments. Simple linear regression and correlation. Case studies"
+    ],
+    "need": "Analyzing data and interpreting results are integral part of almost every research and it finds extensive use in industry as well. From Machine learning to Finance, its applications are enormous.",
+    "references": [
+      "Introduction to Probability and Statistics for Engineers and Scientists by Sheldon M. Ross, Elsevier, New Delhi, 3rd edition (Indian), 2014.",
+      "Probability, Random Variables and Stochastic Engineers and Scientists by Sheldon M. Ross, processes by Papoulis and Pillai, 4th Edition, Tata McGraw Hill, 2002.",
+      "An Introduction to Probability Theory and Its Applications, Vol. 1, William Feller, 3rd edition, Wiley International, 1968."
+
+    ],
+    "credits": "NIL"
+  },
+
+  {
+    "courseCode": "",
+    "courseName": "ELECTRONIC DEVICES",
+    "semester": "Autumn",
+    "instructor": "Prof.RG",
+    "preRequisites": "NIL",
+    "summary": [
+      "Modeling devices",
+      "Introduction to semiconductor equations and carrier statistics",
+      "Semiconductor Diodes",
+      "Field Effect Devices",
+      "Bipolar transistors",
+      "Discrete transistor amplifiers"
+    ],
+    "need": "This is one of the preliminary courses required at the beginning of Electrical Engineering",
+    "references": [
+      "D. A. Neamen, Semiconductor Physics and Devices, 4e Edition, McgrawHill, 13th reprint, 2016 ",
+      "E.S. Yang, Microelectronic Devices, McGraw Hill, Singapore, 1988",
+      "B.G. Streetman, Solid State Electronic Devices, 7th Edition, Pearson, 2016",
+      "J. Millman and A. Grabel, Microelectronics, II edition 34th reprint McGraw Hill, International, 2017.",
+      "A.S. Sedra and K.C. Smith, Microelectronic Circuits, Saunder's College Publishing, 1991",
+      "R.T. Howe and C.G. Sodini, Microelectronics : An integrated Approach, Prentice Hall International, 1997"
+    ],
+    "credits": "NIL"
+  },
+
+  {
+    "courseCode": "",
+    "courseName": "",
+    "semester": "Autumn ",
+    "instructor": "Prof.NK",
+    "preRequisites": "Exposure to EE 101, EE 201",
+    "summary": [
+      "BJT and MOSFET based amplifiers: Cascaded amplifiers",
+      "Introduction to operational amplifiers: The difference amplifier and the ideal operational amplifier models, concept of negative feedback and virtual short, Analysis of simple operational amplifier circuits",
+      "Frequency response of amplifiers, Bode plots.",
+      "Feedback: Feedback topologies and analysis for discrete transistor amplifiers, stability of feedback circuits using Barkhausen criteria.",
+      "Linear applications of operational amplifiers: Instrumentation and Isolation amplifiers, Current and voltage sources, Active filters.",
+      "Non-linear applications of operational amplifiers: Comparators, clippers and clampers, Linearization amplifiers; Precision rectifiers, Logarithmic amplifiers, multifunction circuits and true rms convertors",
+      "Waveform Generation: sinusoidal feedback oscillators, Relaxation oscillators, square-triangle oscillators",
+      "Real operational amplifiers: Current sources and active loads, difference, intermediate and output stages including Miller capacitors for frequency computation",
+      "Operational amplifier parameters; Effects of real operational amplifier parameters on circuit performance.",
+      "Analog and Digital interface circuits: A/D, D/A Converters, S/H circuits and multiplexers."
+    ],
+    "need": "This is a core course which introduces analog amplifiers and their applications in different circuits which are used in several real life devices.",
+    "references": [
+      "J. V. Wait, L. P. Huelsman and GA Korn, Introduction to Operational Amplifier theory and applications, 2nd edition, McGraw Hill, New York, 1992.",
+      "J. Millman and A. Grabel, Microelectronics, 2nd edition, McGraw Hill, 1988.",
+      "A. S. Sedra and K.C. Smith, Microelectronic Circuits, Saunder’s College Publishing, Edition IV",
+      "Ramakant Gayakwad, Op-amps and Linear Integrated Circuit, 4th edition, Pearson, 2000.",
+      "P. Horowitz and W. Hill, The Art of Elect"
+
+    ],
+    "credits": ""
+  },
+
+  {
+    "courseCode": "EE205",
+    "courseName": "NETWORK THEORY",
+    "semester": "Autumn",
+    "instructor": "Prof. Abhijit Kshirsagar",
+    "preRequisites": "NIL",
+    "summary": [
+      "Graphs of networks: current and voltage spaces of graphs and their representations: incidence, cutset and circuit matrices; Tellegen's Theorem.",
+      "Formal study of methods of analysis such as nodal, modified nodal, cutset, loop analysis for linear networks.",
+      "Multiport representation for networks with particular emphasis on 2-ports.",
+      "Time domain analysis of R, L, M, C, controlled sources, networks using state space methods.",
+      "Introduction to s-domain methods."
+    ],
+    "need": "This is one a fundamental course for B.Tech Electrical Engineering students",
+    "references": [
+      "Jerome P. Levine, Omar Wing, Classical Circuit Theory, Springer, 2009.",
+      " S. Ghosh, Network Theory: Analysis and Synthesis, Prentice Hall of India, 2005.",
+      "N Balabanian and T.A. Bickart, Linear Network Theory: Analysis, Properties, Design and Synthesis, Matrix Publishers, Inc. 1981.",
+      "L.O. Chua, C.A. Desoer, E.S. Kuh, Linear and Nonlinear Circuits, McGraw - Hill International Edition 1987."
+    ],
+    "credits": "NIL"
+  },
+
+  {
+    "courseCode": "EE 207",
+    "courseName": "SIGNALS AND SYSTEMS",
+    "semester": "Autumn",
+    "instructor": "Prof.SRMP",
+    "preRequisites": "NIL",
+    "summary": [
+      "Continuous-time and Discrete-time signal (and system) classification and properties.",
+      "Impulse response, LTI / LSI system and properties; Continuous-time and Discrete-time convolution.",
+      "Linear constant coefficient differential (and difference) equations.",
+      "Continuous – time Fourier series and Continuous – time Fourier Transform. Their Properties.",
+      "Discrete – time Fourier series and Discrete – time",
+      "Fourier Transform. Their Properties.",
+      "sampling and Aliasing in time and frequency Discrete Fourier Transform",
+      "Laplace Transform and its Properties.",
+      "Z-Transform and its Properties"
+    ],
+    "need": "This is one a fundamental course for Electrical and Computer Science Engineering",
+    "references": [
+      "Signals and Systems, Authors: Alan V. Oppenheim, Alan S. Willsky, Edition: 2, illustrated, Publisher Pearson, 2013",
+      "Signal Processing and Linear Systems, Author: Bhagawandas P. Lathi, Edition: 2, illustrated, Publisher: Oxford University Press, 2009.",
+      "Signals and Systems, Authors: Simon S Haykin, Barry Van Veen, Edition: 2, illustrated, Publisher: Wiley, 2003."
+    ],
+    "credits": ""
+  },
+
+  {
+    "courseCode": "HS 201",
+    "courseName": "ECONOMICS",
+    "semester": "Autumn",
+    "instructor": "Prof. Gopal Parashari",
+    "preRequisites": "NIL",
+    "summary": [
+      "Basic economic problems. resource constraints and Welfare maximizations. Nature of Economics: Positive and normative economics; Micro and macroeconomics, Basic concepts in economics. The role of the State in economic activity; market and government failures;",
+      "New Economic Policy in India. Theory of utility and consumer’s choice. Theories of demand, supply and market equilibrium. Theories of firm, production and costs. Market structures. competition, oligopoly, monopoly. An overview of macroeconomics, measurement and determination of national income. Consumption, investments. Commercial Relationship between money, output and prices.",
+      "Inflation - causes, consequences and remedies.",
+      "International trade, foreign exchange and balance of payments, stabilization policies : Monetary, Fiscal and Exchange rate policies. "
+    ],
+    "need": "This course is a basic course on economics and useful for all students of B.Tech",
+    "references": [
+      "P. A. Samuelson & W. D. nordhaus, Economics, McGraw Hill, NY, 1995",
+      "A. Koutsoyiannis, Modern Microeconomics, Macmillan, 1975. R. Pindyck and D. L. Rubinfeld, Microeconomics, Macmillan publishing company, NY, 1989.",
+      "R. J. Gordon, Macroeconomics 4th edition, Little Brown and Co., Boston, 1987.",
+      "William F. Shughart II, The Organization of Industry, Richard D. Irwin, Illinois, 1990.",
+      "R.S. Pindyck and D.L. Rubinfeld. Microeconomics (7th Edition), Pearson Prentice Hall, New Jersey, 2009.",
+      "R. Dornbusch, S. Fischer, and R. Startz, Macroeconomics (9th Edition), McGraw-Hill Inc. New York, 2004."
+    ],
+    "credits": "NIL"
+  },
+
+
+  {
+    "courseCode": "MA 207",
+    "courseName": "COMPLEX ANALYSIS",
+    "semester": "Autumn",
+    "instructor": "Prof. Shreedevi Masuti",
+    "preRequisites": "Exposure to Calculus (MA 101)",
+    "summary": [
+      "Definition and properties of analytic functions. CauchyRiemann equations, harmonic functions. Power series and their properties. Elementary functions. Cauchy’s theorem and its applications. Taylor series and Laurent expansions. Residues and the Cauchy residue formula. Evaluation of improper integrals. Conformal mappings. Inversion of Laplace transforms"
+    ],
+    "need": "Complex analysis is essential for many engineering branches",
+    "references": [
+      "E. Kreyszig, Advanced engineering mathematics (10th Edition), John Wiley (1999)",
+      " R. V. Churchill and J. W. Brown, Complex variables and applications (7th Edition), McGraw-Hill (2003)",
+      "Theodore Gamelin, Complex Analysis – Springer Undergraduate texts in Mathematics (2003)"
+    ],
+    "credits": ""
+  },
+
+
+  {
+    "courseCode": "MA 205",
+    "courseName": "DIFFERENTIAL EQUATIONS II",
+    "semester": "Autumn",
+    "instructor": "Prof.Dhriti Ranjan Dolai",
+    "preRequisites": "Exposure to Calculus (MA 101) , Differential Equation-I (MA 104)",
+    "summary": [
+      "Review of power series and series solutions of ODE's. Legendre's equation and Legendre polynomials. Regular and irregular singular points, method of Fresenius. Bessel's equation and Bessel's functions. Strum- Liouville problems. Fourier series. D'Alembert solution to the Wave equation. Classification of linear second order PDE in two variables. Laplace, Wave, and Heat equations using separation of variables. Vibration of a circular membrane. Heat equation in the half space."
+
+    ],
+    "need": "Advanced differential equations is needed in many engineering branches",
+    "references": [
+      "E. Kreyszig, Advanced engineering mathematics (10th Edition), John Wiley (1999)",
+      "W. E. Boyce and R DiPrima, Elementary Differential Equations (8th Edition), John Wiley (2005)"
+    ],
+    "credits": ""
+  },
+
+
+  {
+    "courseCode": "",
+    "courseName": "",
+    "semester": "",
+    "instructor": "",
+    "preRequisites": "",
+    "summary": [
+
+    ],
+    "need": "",
+    "references": [
+
+    ],
+    "credits": ""
+  },
+
+  {
+    "courseCode": "",
+    "courseName": "",
+    "semester": "",
+    "instructor": "",
+    "preRequisites": "",
+    "summary": [
+
+    ],
+    "need": "",
+    "references": [
+
+    ],
+    "credits": ""
+  },
+
+  {
+    "courseCode": "",
+    "courseName": "",
+    "semester": "",
+    "instructor": "",
+    "preRequisites": "",
+    "summary": [
+
+    ],
+    "need": "",
+    "references": [
+
+    ],
+    "credits": ""
+  },
+
+
+
+
+]
