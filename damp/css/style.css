@@ -112,7 +112,7 @@ button:focus {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
-  padding: 75px 0;
+  padding: 50px 0;
 }
 @media (max-width: 991px) {
   .section_gap {
@@ -504,6 +504,7 @@ button:focus {
 }
 
 .banner_area {
+  background-size: cover!important;
   position: relative;
   background: url(../img/banner/banner.jpg) no-repeat center center;
   z-index: 1;
@@ -3748,7 +3749,7 @@ h6 {
   }
 
   .header_area .navbar {
-    background: #868686;
+    background: transparent;
   }
 
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
