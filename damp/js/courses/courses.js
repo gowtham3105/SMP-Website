@@ -10,7 +10,7 @@ geturlparm = () => {
 getcourses = () => {
   document.getElementById("cseSecond").innerHTML = "";
   document.getElementById("cseThird").innerHTML = "";
-  document.getElementById("cseFourth").innerHTML = "";
+ // document.getElementById("cseFourth").innerHTML = "";
 
   var branch = geturlparm();
 
@@ -49,11 +49,11 @@ getcourses = () => {
                 <a href="course-details.html?code=` +
           item.courseCode +
           `">
-                  <div class="course_content">
+                  <div class="course_content" >
                     <span class="tag mb-4 d-inline-block">Semester ` +
           item.semester +
           `</span>
-                    <h4 class="mb-3" style="height: 48px;">
+                    <h4 class="mb-3">
                     ` +
           item.courseCode +
           " " +
@@ -66,7 +66,7 @@ getcourses = () => {
           item.credits +
           `
                     </p>
-                    <p>
+                    <p >
                       Name Of Instructor: ` +
           item.instructor +
           `
@@ -93,11 +93,11 @@ getcourses = () => {
                 <a href="course-details.html?code=` +
           item.courseCode +
           `">
-                  <div class="course_content">
+                  <div class="course_content" >
                     <span class="tag mb-4 d-inline-block">Semester ` +
           item.semester +
           `</span>
-                    <h4 class="mb-3" style="height: 48px;">
+                    <h4 class="mb-3">
                     ` +
           item.courseCode +
           " " +
@@ -121,7 +121,7 @@ getcourses = () => {
               </div>`;
       });
     });
-
+/*
   fetch("http://localhost:8000/Courses?sem=" + "78" + "&branch=" + branch)
     .then((response) => {
       return response.json();
@@ -137,7 +137,7 @@ getcourses = () => {
                 <a href="course-details.html?code=` +
           item.courseCode +
           `">
-                  <div class="course_content">
+                  <div class="course_content" >
                     <span class="tag mb-4 d-inline-block">Semester ` +
           item.semester +
           `</span>
@@ -154,7 +154,7 @@ getcourses = () => {
           item.credits +
           `
                     </p>
-                    <p>
+                    <p >
                       Name Of Instructor: ` +
           item.instructor +
           `
@@ -165,6 +165,8 @@ getcourses = () => {
               </div>`;
       });
     });
+
+    */
 };
 
 getcourses();

@@ -793,6 +793,7 @@ button:focus {
 }
 .single_course .course_content p {
   margin: 0;
+  padding-top:5px;
 }
 .single_course .course_content .course_meta {
   margin-top: 25px;
