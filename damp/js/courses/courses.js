@@ -53,7 +53,7 @@ getcourses = () => {
                     <span class="tag mb-4 d-inline-block">Semester ` +
           item.semester +
           `</span>
-                    <h4 class="mb-3">
+                    <h4 class="mb-3" style="height:48px;">
                     ` +
           item.courseCode +
           " " +
@@ -97,7 +97,7 @@ getcourses = () => {
                     <span class="tag mb-4 d-inline-block">Semester ` +
           item.semester +
           `</span>
-                    <h4 class="mb-3">
+                    <h4 class="mb-3" style="height:48px;">
                     ` +
           item.courseCode +
           " " +
