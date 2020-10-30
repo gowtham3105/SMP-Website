@@ -138,6 +138,21 @@
   padding-left: 5%;
   padding-bottom: 2%;
 }
+
+.mydropdown > li > a {
+  color: black !important;
+  padding: 5% 10% !important;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.mydropdown-toggle {
+  background-color: transparent !important;
+
+.mydropdown-toggle:hover {
+  background-color: transparent !important;
+}
+
 @media only screen and (max-width: 767px) {
   .gen-block {
     font-size: 18px;
@@ -149,5 +164,4 @@
     background-repeat: no-repeat;
     background-position-y: 20%;
   }
-
 }

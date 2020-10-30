@@ -58,15 +58,53 @@
         <!-- Navigation -->
         <nav id="nav">
           <ul class="main-menu nav navbar-nav navbar-right">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="general.html">General</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li><a href="campus.html">Campus Life</a></li>
-          <li><a href="extra.html">Extra curricular</a></li>
-          <li><a href="faq.html">FAQs</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="damp/index.html">DAMP</a></li>
-            
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle mydropdown-toggle" data-toggle="dropdown" href="general.html">General
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu mydropdown">
+                <li><a href="general.html#intro">Introduction</a></li>
+                <li><a href="general.html#things">Things to Bring</a></li>
+                <li><a href="general.html#reach">How to Reach</a></li>
+                <li><a href="general.html#scholarship">Scholarship</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle mydropdown-toggle" data-toggle="dropdown" href="academics.html">Academics
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu mydropdown">
+                <li><a href="academics.html#intro">Introduction</a></li>
+                <li><a href="academics.html#curriculam">Curriculam</a></li>
+                <li><a href="academics.html#departments">Departmants</a></li>
+                <li><a href="academics.html#branch">Branch Change</a></li>
+                <li><a href="academics.html#cpi">CPI Calculation</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle mydropdown-toggle" data-toggle="dropdown" href="campus.html">Campus Life
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu mydropdown">
+                <li><a href="campus.html#inside">Inside Campus</a></li>
+                <li><a href="campus.html#nearby">Nearby Places</a></li>
+                <li><a href="campus.html#hostels">Hostels</a></li>
+                <li><a href="campus.html#internet">Internet</a></li>
+                <li><a href="campus.html#medical">Medical</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle mydropdown-toggle" data-toggle="dropdown" href="extra.html">Extra curricular
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu mydropdown">
+                <li><a href="extra.html#culturals">Culturals</a></li>
+                <li><a href="extra.html#sports">Sports</a></li>
+                <li><a href="extra.html#technical">Technical</a></li>
+              </ul>
+            </li>
+
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="damp/index.html">DAMP</a></li>
+
           </ul>
         </nav>
         <!-- /Navigation -->
@@ -79,7 +117,8 @@
     <div id="home" class="hero-area">
 
       <!-- Backgound Image -->
-      <div class="bg-image bg-parallax overlay" style="background-image:url(./img/academics-background.jpg);background-attachment: scroll;"></div>
+      <div class="bg-image bg-parallax overlay"
+        style="background-image:url(./img/academics-background.jpg);background-attachment: scroll;"></div>
       <!-- /Backgound Image -->
 
       <div class="home-wrapper">
@@ -116,7 +155,7 @@
       <!-- container -->
       <div class="container gen-block-container">
 
-        <div class="gen-block">
+        <div class="gen-block" id="intro">
           <h2>
             Introduction
           </h2>
@@ -138,7 +177,7 @@
           the resources innovatively and carve a niche for yourself.
         </div>
 
-        <div class="gen-block">
+        <div class="gen-block" id="curriculam">
           <h2>
             Curriculum
           </h2>
@@ -166,7 +205,7 @@
           </p>
         </div>
 
-        <div class="gen-block">
+        <div class="gen-block" id="departments">
           <h2>
             Departments
           </h2>
@@ -188,7 +227,7 @@
               member at IIT Dharwad and a mentor from an industry. </li>
           </ul>
         </div>
-        <div class="gen-block">
+        <div class="gen-block" id="branch">
           <h2>
             Branch Change
           </h2>
@@ -200,7 +239,7 @@
           and rules regarding branch change would be provided by the academic staff at the end of first year.
         </div>
 
-        <div class="gen-block">
+        <div class="gen-block" id="cpi">
           <h2>
             CPI Calculation
           </h2>
