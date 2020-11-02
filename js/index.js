@@ -1,4 +1,4 @@
-getfaqs = () => {
+index = () => {
   fetch("http://localhost:8000/team")
     .then((response) => {
       return response.json();
@@ -33,4 +33,4 @@ getfaqs = () => {
       });
     });
 };
-getfaqs();
+index();

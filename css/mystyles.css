@@ -102,14 +102,19 @@
   border-top: none !important;
 }
 .faqcard {
-  border: 2px solid #ff6700;
-  padding: 3px;
-  margin: 10px;
-  border-radius: 15px;
+  border: 2px solid #ff6700 !important;
+  padding: 3px !important;
+  margin: 10px !important;
+  border-radius: 15px !important;
+}
+.faqcardheader {
+  background-color: white !important;
+  border-color: white!important;
 }
 .faqQuesbtn {
   background-color: white;
   white-space: normal !important;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.0)!important;
 }
 .faqQuesbtn:hover {
   background-color: white;
@@ -160,7 +165,7 @@
 .info h4 {
   padding: 1%;
   color: white;
-  font-size:16px;
+  font-size: 16px;
 }
 .index-card {
   height: 30%;

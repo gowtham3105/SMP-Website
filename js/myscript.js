@@ -10,7 +10,7 @@ getfaqs = () => {
         document.getElementById("questions").innerHTML +=
           `
                 <div class="card faqcard">
-    <div class="card-header" id="` +
+    <div class="card-header faqcardheader" id="` +
           i +
           `">
      <div class="btn faqQuesbtn" type="button" data-toggle="collapse" data-target="#c` +
