@@ -9,9 +9,23 @@ client = pymongo.MongoClient(
 FAQSdb = client['FAQs']
 
 Coursesdb = client['Courses']
+ 
+Teamdb = client['Team']
 
 app = Flask(__name__)
 cors = CORS(app)
+
+@app.route("/team", methods=['GET'])
+def team():
+    data = []
+
+    for x in Teamdb['SMP Mentor Team'].find().sort('name'):
+        x['_id'] = str(x['_id'])
+        data.append(x)
+        
+    data = json.loads(str(data).replace("'", "\""))
+    return jsonify(data)
+
 
 @app.route("/faq", methods=['GET'])
 def faq():
