@@ -4,7 +4,7 @@ index = () => {
       return response.json();
     })
     .then((item) => {
-      console.log(item);
+      
       item.map((item, i) => {
         
         document.getElementById("teamDetails").innerHTML +=

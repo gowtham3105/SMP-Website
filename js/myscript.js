@@ -4,9 +4,9 @@ getfaqs = () => {
       return response.json();
     })
     .then((item) => {
-      console.log(item);
+      
       item.map((item, i) => {
-        console.log("hello");
+        
         document.getElementById("questions").innerHTML +=
           `
                 <div class="card faqcard">

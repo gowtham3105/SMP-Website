@@ -18,9 +18,22 @@ cors = CORS(app)
 @app.route("/team", methods=['GET'])
 def team():
     data = []
-
-    for x in Teamdb['SMP Mentor Team'].find().sort('name'):
+    filterData = {'position':'Faculty-in-charge'} 
+    for x in Teamdb['ISMP Mentor Team'].find(filterData).sort('name'):
         x['_id'] = str(x['_id'])
+        data.append(x)
+    filterData = {'position': 'Student Mentor Co-ordinator'}
+    for x in Teamdb['ISMP Mentor Team'].find(filterData).sort('name'):
+        x['_id'] = str(x['_id'])
+        data.append(x)
+    filterData = {'position': 'Student Mentor Assistant Co-ordinator'}
+    for x in Teamdb['ISMP Mentor Team'].find(filterData).sort('name'):
+        x['_id'] = str(x['_id'])
+        data.append(x)
+    filterData = {'position': 'Student mentor'}
+    for x in Teamdb['ISMP Mentor Team'].find(filterData).sort('name'):
+        x['_id'] = str(x['_id'])
+        x['position'] = 'Student Mentor'
         data.append(x)
         
     data = json.loads(str(data).replace("'", "\""))
