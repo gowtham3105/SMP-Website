@@ -10,7 +10,9 @@ geturlparm = () => {
 getcoursedetails = () => {
   var courseCode = geturlparm();
 
-  fetch("http://localhost:8000/CourseDetails?code=" + courseCode)
+  fetch(
+    "https://test-smp-server.herokuapp.com/CourseDetails?code=" + courseCode
+  )
     .then((response) => {
       return response.json();
     })

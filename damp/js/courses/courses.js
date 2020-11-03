@@ -10,12 +10,13 @@ geturlparm = () => {
 getcourses = () => {
   document.getElementById("cseSecond").innerHTML = "";
   document.getElementById("cseThird").innerHTML = "";
- // document.getElementById("cseFourth").innerHTML = "";
+  // document.getElementById("cseFourth").innerHTML = "";
 
   var branch = geturlparm();
 
   if (branch == "CSE") {
-    document.getElementById("branchName").innerHTML = "Computer Science and Engineering";
+    document.getElementById("branchName").innerHTML =
+      "Computer Science and Engineering";
     document.getElementById("branchName1").innerHTML =
       " Computer Science and Engineering";
     document.getElementById("course-banner").style.background =
@@ -34,7 +35,12 @@ getcourses = () => {
       "url('img/courses/course-MECH.jpg')  no-repeat center center";
   }
 
-  fetch("http://localhost:8000/Courses?sem=" + "34" + "&branch=" + branch)
+  fetch(
+    "https://test-smp-server.herokuapp.com/Courses?sem=" +
+      "34" +
+      "&branch=" +
+      branch
+  )
     .then((response) => {
       return response.json();
     })
@@ -78,7 +84,12 @@ getcourses = () => {
       });
     });
 
-  fetch("http://localhost:8000/Courses?sem=" + "56" + "&branch=" + branch)
+  fetch(
+    "https://test-smp-server.herokuapp.com/Courses?sem=" +
+      "56" +
+      "&branch=" +
+      branch
+  )
     .then((response) => {
       return response.json();
     })
@@ -121,8 +132,8 @@ getcourses = () => {
               </div>`;
       });
     });
-/*
-  fetch("http://localhost:8000/Courses?sem=" + "78" + "&branch=" + branch)
+  /*
+  fetch("https://test-smp-server.herokuapp.com/Courses?sem=" + "78" + "&branch=" + branch)
     .then((response) => {
       return response.json();
     })

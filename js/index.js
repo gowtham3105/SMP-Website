@@ -1,12 +1,10 @@
 index = () => {
-  fetch("http://localhost:8000/team")
+  fetch("https://test-smp-server.herokuapp.com/team")
     .then((response) => {
       return response.json();
     })
     .then((item) => {
-      
       item.map((item, i) => {
-        
         document.getElementById("teamDetails").innerHTML +=
           `
                 <div class="card img-fluid index-card"style='background-image: url("https://drive.google.com/uc?export=view&id=` +

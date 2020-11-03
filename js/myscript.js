@@ -1,12 +1,10 @@
 getfaqs = () => {
-  fetch("http://localhost:8000/faq")
+  fetch("https://test-smp-server.herokuapp.com/faq")
     .then((response) => {
       return response.json();
     })
     .then((item) => {
-      
       item.map((item, i) => {
-        
         document.getElementById("questions").innerHTML +=
           `
                 <div class="card faqcard">
