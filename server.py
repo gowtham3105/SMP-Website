@@ -33,7 +33,6 @@ def team():
     filterData = {'position': 'Student mentor'}
     for x in Teamdb['ISMP Mentor Team'].find(filterData).sort('name'):
         x['_id'] = str(x['_id'])
-        x['position'] = 'Student Mentor'
         data.append(x)
         
     data = json.loads(str(data).replace("'", "\""))
