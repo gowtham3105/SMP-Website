@@ -30,7 +30,7 @@ def team():
     for x in Teamdb['ISMP Mentor Team'].find(filterData).sort('name'):
         x['_id'] = str(x['_id'])
         data.append(x)
-    filterData = {'position': 'Student mentor'}
+    filterData = {'position': 'Institute Student Mentor'}
     for x in Teamdb['ISMP Mentor Team'].find(filterData).sort('name'):
         x['_id'] = str(x['_id'])
         data.append(x)
