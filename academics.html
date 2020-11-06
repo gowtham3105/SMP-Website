@@ -321,6 +321,32 @@ regarding branch change would be provided by the academic staff at the end of fi
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
+    <!-- Firebase Analytics-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    		     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyBAXM9zbmu_WjpMuJGFaoo6p3mBbtACxtE",
+        authDomain: "smp-website-99f48.firebaseapp.com",
+        databaseURL: "https://smp-website-99f48.firebaseio.com",
+        projectId: "smp-website-99f48",
+        storageBucket: "smp-website-99f48.appspot.com",
+        messagingSenderId: "86557759685",
+        appId: "1:86557759685:web:1ac91c366f2be3aeb1f8ac",
+        measurementId: "G-5GJ3HP50H4"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
   </body>
 
 </html>
