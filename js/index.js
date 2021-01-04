@@ -1,5 +1,5 @@
 index = () => {
-  fetch("https://test-smp-server.herokuapp.com/team")
+  fetch("/api/team")
     .then((response) => {
       return response.json();
     })

@@ -99,7 +99,7 @@
 }
 .implink td {
   text-align: center;
-  border-top: none !important;
+  border-top: None !important;
 }
 .faqcard {
   border: 2px solid #ff6700 !important;
@@ -109,12 +109,12 @@
 }
 .faqcardheader {
   background-color: white !important;
-  border-color: white!important;
+  border-color: white !important;
 }
 .faqQuesbtn {
   background-color: white;
   white-space: normal !important;
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.0)!important;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0) !important;
 }
 .faqQuesbtn:hover {
   background-color: white;
@@ -160,12 +160,18 @@
 .info {
   background-color: #333333c2;
   opacity: 0;
-  top: 25%;
+  top: 20%;
 }
 .info h4 {
   padding: 1%;
   color: white;
   font-size: 16px;
+}
+.card-title {
+  font-size: 15px !important;
+}
+.card-img-overlay {
+  padding: 1rem;
 }
 .index-card {
   height: 30%;

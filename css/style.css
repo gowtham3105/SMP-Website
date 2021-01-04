@@ -18,7 +18,6 @@ Table OF Contents
 13 > Preloader
 ------------------------------------*/
 
-
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
@@ -63,8 +62,8 @@ a {
 
 a:hover,
 a:focus {
-  text-decoration: none;
-  outline: none;
+  text-decoration: None;
+  outline: None;
   color: #374050;
   opacity: 0.9;
 }
@@ -73,7 +72,7 @@ ul,
 ol {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: None;
 }
 
 .white-text {
@@ -84,7 +83,7 @@ blockquote {
   position: relative;
   margin: 20px 0px;
   padding: 20px 20px 20px 60px;
-  border-left: none;
+  border-left: None;
   color: #374050;
 }
 
@@ -953,7 +952,7 @@ textarea:focus {
   height: 40px;
   width: 40px;
   background-color: transparent;
-  border: none;
+  border: None;
 }
 
 .widget.search-widget .input:focus + button {
@@ -1225,11 +1224,10 @@ textarea:focus {
   }
 
   .contact-form button {
-    float: none !important;
+    float: None !important;
   }
 
   /*-- Blog page --*/
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -1245,7 +1243,7 @@ textarea:focus {
 
   /*-- Pagination --*/
   .post-pagination .pages {
-    display: none;
+    display: None;
   }
 }
 
@@ -1264,7 +1262,7 @@ textarea:focus {
   .blog-reply-form .input.name-input,
   .blog-reply-form .input.email-input {
     width: 100%;
-    float: none;
+    float: None;
   }
 
   .blog-reply-form .input.email-input {

@@ -47,7 +47,7 @@
 .fa-ul {
   padding-left: 0;
   margin-left: 2.14285714em;
-  list-style-type: none;
+  list-style-type: None;
 }
 .fa-ul > li {
   position: relative;
@@ -154,7 +154,7 @@
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  filter: None;
 }
 .fa-stack {
   position: relative;
